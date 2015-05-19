@@ -1,16 +1,21 @@
-DFgraphics 40.24
+DFgraphics
 ==========
 
-Dwarf Fortress graphics repo for Starter Packs configured for [TWBT](https://github.com/mifki/df-twbt) rendering.
+A collection of Dwarf Fortress graphics packs, configured for [Starter Packs]
+(http://lazynewbpack.com/).
 
+Current targeted version:  DF 0.40.24
 
-Starter Pack links:
+Each graphics pack is set up to use the features of PyLNP 0.11a to save space by
+omitting duplicate or vanilla files.  With the exception of ASCII-Default, they
+also use [TWBT](https://github.com/mifki/df-twbt) to the greatest extent practical.
 
-[Windows: Peredexiserrant's Starter Pack](http://www.bay12forums.com/smf/index.php?topic=126076)
+Graphics packs must consist of more than a tileset and color scheme, as PyLNP has
+alternative management methods for those which are more flexible and take less space.
+Tilesets which need not be installed with very pack - i.e. most ASCII-based tilesets -
+are stored as a singe special-case graphics packs.
 
-[OSX: Fricy's Macnewbie Pack](http://www.bay12forums.com/smf/index.php?topic=128960)
-
-[Linux: Beautato's Pack](http://lazynewbpack.com/linux/)
-
-Downloading all the graphics packs only works through the git client, using the zip option on this page will net you an empty file.
-If you want to grab one of the packs from this repo, click on the name and download .zip from there. You can also use the [release tab](https://github.com/Lazy-Newb-Pack/DFgraphics/releases) to grab an older version.
+In practise, many shared files such as mouse images, standard curses tilesets,
+and Meph's vanilla TwbT overrides can be placed in `LNP/Tilesets` to save space.
+However this package is entirely self-contained, so any single graphics pack
+will work without any further configuration or extra files.
