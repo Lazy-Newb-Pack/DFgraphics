@@ -1,4 +1,4 @@
-[TILESET:Vanilla DF - 24x - Items.png:Vanilla DF - 24x - Items.png:2] 
+[TILESET:_Meph_TwbT_Vanilla.png:_Meph_TwbT_Vanilla.png:2] 
 #[OVERRIDE:Tile:Kind:Id:Type:Subtype:Tileset:NewTile]
 
 [OVERRIDE:47:I:AMMO:AMMO:0:2:0]
@@ -92,9 +92,8 @@
 [OVERRIDE:47:I:WEAPON:WEAPON:22:2:78]
 [OVERRIDE:47:I:WEAPON:WEAPON:23:2:79]
 
-#[OVERRIDE:145:I:TOY:TOY:0+n:2:tilenumber]
 
-[TILESET:Spacefox_16x16LeoCeanOverrides.png:Spacefox_16x16LeoCeanOverrides.png:3]
+[TILESET:_Spacefox_16x16LeoCeanOverrides.png:_Spacefox_16x16LeoCeanOverrides.png:3]
 
 #Alt 71 or 73 in tileset :88]
 [OVERRIDE:88:T:ConstructedStairUD:3:88] 
@@ -127,7 +126,7 @@
 #                                             #FIGURINE FIGURINE
 [OVERRIDE:194:I:CRUTCH:CRUTCH::3:20]          #CRUTCH CRUTCH #DONE (mostly made by LeoCean)
 [OVERRIDE:230:I:CROWN:CROWN::3:6]             #CROWN CROWN #DONEfreeuseone
-#[OVERRIDE:#:I:CHEESE:CHEESE::3:52]            #CHEESE CHEESE NEED (can't find which tile it uses, nor do I have a tile for it)
+#[OVERRIDE:#:I:CHEESE:CHEESE::3:52]           #CHEESE CHEESE NEED (can't find which tile it uses, nor do I have a tile for it)
 #                                             #CATAPULTPARTS CATAPULTPARTS
 #                                             #BRACELET BRACELET
 #                                             #BOX BOX  donish
@@ -144,10 +143,8 @@
 [OVERRIDE:21:B:CHAIN:Chain::3:3]              #CHAIN Chain
 
 [OVERRIDE:177:I:WINDOW:WINDOW::3:42]          #WINDOW WINDOW (mostly made by LeoCean) (58 or 42)
-#[OVERRIDE:177:I:WINDOW:WINDOW::3:58]         #WINDOW WINDOW Alternate
 [OVERRIDE:177:B:WINDOW_ANY:WindowGem::3:57]
 [OVERRIDE:177:B:WINDOW_ANY:WindowGlass::3:42]
-#[OVERRIDE:177:B:WINDOW_ANY:WindowGlass::3:58]#WINDOWGlass Alternate
 
 #Coffins only in override
 [OVERRIDE:48:I:COFFIN:COFFIN::3:48]			#Coffin in stockpile
@@ -183,72 +180,7 @@
 [OVERRIDE:61:B:FURNACE_WOOD:Furnace::3:0:9]		#Charcoal log sprite
 
 
-#TILE 
-#Waterfall
-#Driftwood
-#Fire
-#Campfire
-#BurningTreeBranches, BurningTreeCapFloor, BurningTreeCapRamp, BurningTreeCapWall, BurningTreeTrunk, BurningTreeTwigs, 
-
-
 [OVERRIDE:186:B:DOOR:Door::3:197]#wood door
 [OVERRIDE:186:I:DOOR:DOOR::3:197]#wood door
 [OVERRIDE:240:B:DOOR:Door::3:198]#metal door
 [OVERRIDE:240:I:DOOR:DOOR::3:198]#metal door
-#[OVERRIDE:186:B:DOOR:Door::TILESET:197] (don't use this or the one below, it's an example)
-#[OVERRIDE:186:I:DOOR:DOOR::TILESET:197]
-
-
-#May have to check,TREE ROOTS, CHECK \data\init d_init.txt TO MAKE SURE YOUR VERSION IS COMPATIBLE WITH THESE ONES, not all tilesets have the same thing set as roots#
-
-#Spacefox LeoCean, Afro will be different#
-[OVERRIDE:141:T:TreeDeadRoots:3:55]
-[OVERRIDE:127:T:TreeDeadRootSloping:3:56]
-[OVERRIDE:141:T:TreeRoots:3:66]
-[OVERRIDE:127:T:TreeRootSloping:3:67]
-
-#Phoebus, may be different#
-#[OVERRIDE:133:T:TreeDeadRoots:3:55]
-#[OVERRIDE:158:T:TreeDeadRootSloping:3:56]
-#[OVERRIDE:133:T:TreeRoots:3:66]
-#[OVERRIDE:158:T:TreeRootSloping:3:67]
-
-#Ironhand, these could be different. Matched them with fricy's buid#
-#[OVERRIDE:156:T:TreeDeadRoots:3:55]
-#[OVERRIDE:127:T:TreeDeadRootSloping:3:56]
-#[OVERRIDE:156:T:TreeRoots:3:66]
-#[OVERRIDE:127:T:TreeRootSloping:3:67]
-
-#below don't work
-
-#[OVERRIDE:240:I:BAR:BAR:"iron_bars":3:241] #iron
-#[OVERRIDE:240:I:BAR:BAR:"IRON_BAR":3:241] #iron
-#[OVERRIDE:240:I:BAR:BAR:IRON_BAR:3:241] #iron
-#[OVERRIDE:240:I:BAR:BAR:IRON_BARS:3:241] #iron
-
-#[OVERRIDE:240:I:BAR:BAR:"gold bars":3:242] #gold
-#[OVERRIDE:240:I:BAR:BAR:SILVER:3:243] #silver
-#[OVERRIDE:240:I:BAR:BAR:COPPER:3:244] #copper
-
-#[OVERRIDE:240:I:BAR:BAR:0:3:241] #iron
-#[OVERRIDE:240:I:BAR:BAR:1:3:242] #gold
-#[OVERRIDE:240:I:BAR:BAR:2:3:243] #silver
-#[OVERRIDE:240:I:BAR:BAR:3:3:244] #copper
-#[OVERRIDE:240:I:BAR:BAR:4:3:245] #zinc
-#[OVERRIDE:240:I:BAR:BAR:5:3:246] #bronze	
-#[OVERRIDE:240:I:BAR:BAR:6:3:247] #brass
-#[OVERRIDE:240:I:BAR:BAR:7:3:248] #steel
-#[OVERRIDE:240:I:BAR:BAR:8:3:249] #pig iron
-#[OVERRIDE:240:I:BAR:BAR:9:3:250] #electrum
-#[OVERRIDE:240:I:BAR:BAR:10:3:251] #tin
-#[OVERRIDE:240:I:BAR:BAR:11:3:252] #fine pewter
-#[OVERRIDE:240:I:BAR:BAR:12:3:253] #trifle pewter
-#[OVERRIDE:240:I:BAR:BAR:13:3:254] #lay pewter
-#[OVERRIDE:240:I:BAR:BAR:14:3:255] #lead
-#[OVERRIDE:240:I:BAR:BAR:15:3:224] #nickel
-#[OVERRIDE:240:I:BAR:BAR:16:3:225] #billion
-#[OVERRIDE:240:I:BAR:BAR:17:3:226] #sterling silver
-#[OVERRIDE:240:I:BAR:BAR:18:3:227] #black bronze
-#[OVERRIDE:240:I:BAR:BAR:19:3:228] #rose gold
-#[OVERRIDE:240:I:BAR:BAR:20:3:229] #bismuth
-#[OVERRIDE:240:I:BAR:BAR:21:3:230] #bismuth bronze
